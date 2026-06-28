@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #0B0E14;
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(94, 230, 197, 0.06), transparent 35%),
+    radial-gradient(circle at 85% 0%, rgba(183, 156, 242, 0.05), transparent 40%);
+  color: #E8EAED;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-display { font-family: 'Sora', sans-serif; }
+.font-mono-num { font-family: 'JetBrains Mono', monospace; font-feature-settings: "tnum"; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #262E3B; border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+:focus-visible {
+  outline: 2px solid #5EE6C5;
+  outline-offset: 2px;
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.score-reveal { animation: countUp 0.4s ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
