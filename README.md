@@ -1,4 +1,4 @@
-# RankArena
+# RankArena — Aggregated Ranking Engine for Notable Activity
 
 A domain-specific leaderboard for students and professionals. RankArena scores
 GitHub activity, competitive programming, shipped projects, achievements,
