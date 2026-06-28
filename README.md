@@ -10,6 +10,8 @@ rankarena/
 `-- frontend/   React + Vite + Tailwind dashboard & leaderboard
 ```
 
+<img width="2720" height="3280" alt="devboard_architecture" src="https://github.com/user-attachments/assets/4cdfd65b-7a1a-4653-ac78-58f87639d4ca" />
+
 ## Core Idea
 
 Users create a profile, choose a domain track, connect public coding profiles,
@@ -28,6 +30,9 @@ DSA & CP, Open Source, Mobile, Design, and Cloud/DevOps.
 | Daily work | User logged | Recent consistency contributes to score. |
 
 ## Scoring Formula
+
+<img width="2720" height="2240" alt="devboard_scoring_model" src="https://github.com/user-attachments/assets/a9d9b12b-d7d8-4ba0-8069-7059a0ea5703" />
+
 
 Each component is normalized 0-100 with a soft cap so one huge stat cannot
 dominate. The total is a 0-1000 weighted blend:
@@ -71,3 +76,4 @@ Backend runs at `http://localhost:4000`.
 Frontend runs at `http://localhost:5173`.
 
 Demo login after seeding: `aanya@example.com` / `password123`.
+<img width="1467" height="722" alt="image" src="https://github.com/user-attachments/assets/95b8962e-f58f-4835-9d04-09b697775a6e" />
